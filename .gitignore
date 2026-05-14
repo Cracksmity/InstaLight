@@ -1,0 +1,41 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local / secrets (por si añades claves)
+.env
+.env.*
+
+# Fotos de usuario (solo se versionan .gitkeep)
+/input/*
+!/input/.gitkeep
+/output/*
+!/output/.gitkeep
+
+# Logs / temp
+*.log
+*.tmp
