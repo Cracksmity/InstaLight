@@ -70,24 +70,8 @@ Se genera un ejecutable cuyo nombre por defecto es **InstaLight** (ver `build.ba
 
 Perfiles y última sesión se guardan en el directorio de datos de la aplicación (por ejemplo `%LOCALAPPDATA%\InstaLight\` en Windows). Versiones anteriores usaban la carpeta `CompresorInstagram` en el mismo tipo de ruta; si no ves tus perfiles, copia manualmente los `.json` a la carpeta nueva.
 
-## Publicar en GitHub
-
-1. Crea un repositorio **vacío** en GitHub (sin README ni `.gitignore` remoto, o luego fusionas).
-2. En la carpeta del proyecto:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: InstaLight"
-git branch -M main
-git remote add origin https://github.com/TU_USUARIO/TU_REPO.git
-git push -u origin main
-```
-
-Sustituye la URL por la de tu repo (HTTPS o SSH). Si GitHub te pide autenticación, usa un [personal access token](https://docs.github.com/en/authentication) en lugar de la contraseña con HTTPS, o configura SSH.
-
-**Qué se sube y qué no:** el [`.gitignore`](.gitignore) evita entornos virtuales (`.venv`), artefactos de PyInstaller (`dist/`, `build/`), caché de Python y el **contenido** de `input/` y `output/` (tus fotos no se versionan). Las carpetas `input` y `output` sí existen en el repo gracias a `.gitkeep`.
+Repositorio: [github.com/Cracksmity/InstaLight](https://github.com/Cracksmity/InstaLight).
 
 ## Licencia
 
-Uso personal o del proyecto; añade la licencia que prefieras si publicas el código.
+MIT — ver el archivo [LICENSE](LICENSE).
