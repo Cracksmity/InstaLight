@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/logo.svg" alt="InstaLight" width="120">
+</p>
+
 # InstaLight
 
 Herramienta en Python para **comprimir y preparar fotos** (.jpg, .jpeg, .png) antes de subirlas a **Instagram**: menos peso, ancho máximo configurable, recortes centrados típicos del feed y de historias, y opción de forzar salida JPEG.
